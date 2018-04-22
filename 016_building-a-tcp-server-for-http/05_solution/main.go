@@ -29,7 +29,7 @@ func handle(conn net.Conn) {
 
 	request(conn)
 
-	respond(conn)
+	//respond(conn)
 }
 
 func request(conn net.Conn) {
